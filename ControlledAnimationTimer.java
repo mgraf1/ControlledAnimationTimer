@@ -171,7 +171,7 @@ public class ControlledAnimationTimer extends AnimationTimer{
         }
     }
     
-    // Reset the counter and StringProperty.
+    // Reset the counter property.
     private void reset() {
         currStepProperty.set(0);
     }
